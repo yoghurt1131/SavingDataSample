@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_name"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_value"
+        android:layout_below="@+id/item_name"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/et_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_toRightOf="@+id/item_value"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/item_value">
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_save"/>
+        <Button
+            android:id="@+id/btn_display"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_display"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_delete"/>
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_update"/>
+        </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SavingDataSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn1">プリファレンス</string>
+    <string name="btn2">ファイル</string>
+    <string name="btn3">データベース</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="title_activity_file_acitivity">FileAcitivity</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="item_name">商品名</string>
+    <string name="item_value">商品価格</string>
+
+    <string name="btn_display">表示</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_delete">消去</string>
+    <string name="btn_update">更新</string>
+
+    <string name="name_key">NAME_KEY</string>
+    <string name="value_key">VALUE_KEY</string>
+
+    <string name="toast_save">保存しました。</string>
+    <string name="toast_delete">消去しました。</string>
+    <string name="toast_display">取得しました。</string>
+    <string name="toast_update">更新しました。</string>
+    <string name="toast_failed">失敗しました。</string>
+
+</resources>
